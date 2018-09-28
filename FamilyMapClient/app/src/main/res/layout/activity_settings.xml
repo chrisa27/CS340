@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+        <TextView android:text="@string/settings_life_lines"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginStart="10dp"
+                  style="@style/SettingsMainText"/>
+
+        <TextView android:text="@string/settings_show_life"
+                  android:layout_marginLeft="17dp"
+                  android:layout_marginStart="17dp"
+                  style="@style/SettingsSubText"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerVertical="true"
+                      android:layout_alignParentRight="true"
+                      android:layout_alignParentEnd="true"
+                      android:layout_marginRight="20dp"
+                      android:layout_marginEnd="20dp">
+
+        <Spinner android:id="@+id/settings_life_spinner"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginRight="5dp"
+                 android:layout_marginEnd="5dp"/>
+
+        <Switch android:id="@+id/settings_life_switch"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:checked="false"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View style="@style/Divider"/>
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+            <TextView android:text="@string/settings_tree_lines"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginStart="10dp"
+                      style="@style/SettingsMainText"/>
+
+            <TextView android:text="@string/settings_show_tree"
+                      android:layout_marginLeft="17dp"
+                      android:layout_marginStart="17dp"
+                      style="@style/SettingsSubText"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerVertical="true"
+                      android:layout_alignParentRight="true"
+                      android:layout_alignParentEnd="true"
+                      android:layout_marginRight="20dp"
+                      android:layout_marginEnd="20dp">
+
+            <Spinner android:id="@+id/settings_tree_spinner"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginRight="5dp"
+                     android:layout_marginEnd="5dp"/>
+
+            <Switch android:id="@+id/settings_tree_switch"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View style="@style/Divider"/>
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+            <TextView android:text="@string/settings_spouse_lines"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginStart="10dp"
+                      style="@style/SettingsMainText"/>
+
+            <TextView android:text="@string/settings_show_spouse"
+                      android:layout_marginLeft="17dp"
+                      android:layout_marginStart="17dp"
+                      style="@style/SettingsSubText"/>
+
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerVertical="true"
+                      android:layout_alignParentRight="true"
+                      android:layout_alignParentEnd="true"
+                      android:layout_marginRight="20dp"
+                      android:layout_marginEnd="20dp">
+
+            <Spinner android:id="@+id/settings_spouse_spinner"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_marginRight="5dp"
+                     android:layout_marginEnd="5dp"/>
+
+            <Switch android:id="@+id/settings_spouse_switch"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View style="@style/Divider"/>
+
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical">
+
+            <TextView android:text="@string/settings_map_type"
+                      android:layout_marginLeft="10dp"
+                      android:layout_marginStart="10dp"
+                      style="@style/SettingsMainText"/>
+
+            <TextView android:text="@string/settings_background_display"
+                      android:layout_marginLeft="17dp"
+                      android:layout_marginStart="17dp"
+                      style="@style/SettingsSubText"/>
+
+        </LinearLayout>
+
+        <Spinner android:id="@+id/settings_map_spinner"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_centerVertical="true"
+                 android:layout_alignParentRight="true"
+                 android:layout_alignParentEnd="true"
+                 android:layout_marginRight="20dp"
+                 android:layout_marginEnd="20dp"/>
+
+    </RelativeLayout>
+
+    <View style="@style/Divider"/>
+
+    <LinearLayout android:id="@+id/settings_sync_button"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+        <TextView android:text="@string/settings_sync_data"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginStart="10dp"
+                  style="@style/SettingsMainText"/>
+
+        <TextView android:text="@string/settings_from_service"
+                  android:layout_marginLeft="17dp"
+                  android:layout_marginStart="17dp"
+                  style="@style/SettingsSubText"/>
+
+    </LinearLayout>
+
+    <View style="@style/Divider"/>
+
+    <LinearLayout android:id="@+id/settings_logout_button"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical">
+
+        <TextView android:text="@string/settings_logout"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginStart="10dp"
+                  style="@style/SettingsMainText"/>
+
+        <TextView android:text="@string/settings_return"
+                  android:layout_marginLeft="17dp"
+                  android:layout_marginStart="17dp"
+                  style="@style/SettingsSubText"/>
+
+    </LinearLayout>
+
+    <View style="@style/Divider"/>
+
+</LinearLayout>

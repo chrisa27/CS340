@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Family Map</string>
+
+    <!--Login strings-->
+    <string name="login_button">Sign in</string>
+    <string name="register_button">Register</string>
+    <string name="server_host_label">Server Host: </string>
+    <string name="server_port_label">Server Port: </string>
+    <string name="username_label"> Username: </string>
+    <string name="password_label">Password: </string>
+    <string name="first_name_label">First Name: </string>
+    <string name="last_name_label">Last Name: </string>
+    <string name="email_label">Email: </string>
+    <string name="gender_label">Gender: </string>
+    <string name="male_radio">Male</string>
+    <string name="female_radio">Female</string>
+
+    <!--Map fragment strings-->
+    <string name="map_fragment_name">Click on a marker</string>
+    <string name="map_fragment_event">to see event details</string>
+
+    <!--Maps menu strings-->
+    <string name="menu_search">Search</string>
+    <string name="menu_filter">Filter</string>
+    <string name="menu_settings">Settings</string>
+
+    <!--Chevron menu strings-->
+    <string name="menu_chevron">Go to top</string>
+
+    <!--Settings strings-->
+    <string name="settings_life_lines">Life Story Lines</string>
+    <string name="settings_show_life">SHOW LIFE STORY LINES</string>
+    <string name="settings_tree_lines">Family Tree Lines</string>
+    <string name="settings_show_tree">SHOW TREE LINES</string>
+    <string name="settings_spouse_lines">Spouse Lines</string>
+    <string name="settings_show_spouse">SHOW SPOUSE LINES</string>
+    <string name="settings_map_type">Map Type</string>
+    <string name="settings_background_display">BACKGROUND DISPLAY ON MAP</string>
+    <string name="settings_sync_data">Re-sync Data</string>
+    <string name="settings_from_service">FROM FAMILYMAP SERVICE</string>
+    <string name="settings_logout">Logout</string>
+    <string name="settings_return">RETURNS TO LOGIN SCREEN</string>
+
+    <string-array name="settings_colors">
+        <item>Red</item>
+        <item>Blue</item>
+        <item>Yellow</item>
+        <item>Green</item>
+    </string-array>
+
+    <string-array name="settings_map_types">
+        <item>Normal</item>
+        <item>Hybrid</item>
+        <item>Satellite</item>
+        <item>Terrain</item>
+    </string-array>
+
+    <!--Person strings-->
+    <string name="person_first">FIRST NAME</string>
+    <string name="person_last">LAST NAME</string>
+    <string name="person_gender">GENDER</string>
+    <string name="person_events">LIFE EVENTS</string>
+    <string name="person_family">FAMILY</string>
+
+    <string name="search">Search family tree</string>
+
+</resources>

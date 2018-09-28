@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:orientation="vertical">
+
+        <TextView android:id="@+id/filter_maintext"
+                  style="@style/SettingsMainText"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="10dp"
+                  android:layout_marginStart="10dp"/>
+
+        <TextView android:id="@+id/filter_subtext"
+                  style="@style/SettingsSubText"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="17dp"
+                  android:layout_marginStart="17dp"/>
+
+        <View style="@style/Divider"/>
+
+    </LinearLayout>
+
+    <Switch android:id="@+id/filter_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"/>
+
+</RelativeLayout>
